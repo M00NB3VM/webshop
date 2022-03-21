@@ -1,0 +1,55 @@
+.main {
+  background-image: url(/images/bg-s.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.callToAction {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.poster1 {
+  max-width: 80%;
+  height: auto;
+  padding: 0;
+  margin: 20px;
+}
+
+.poster2 {
+  max-width: 80%;
+  height: auto;
+  padding: 0;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.callToActionButtonDiv {
+  text-align: center;
+}
+
+.callToActionButton {
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 20px;
+  margin-bottom: 30px;
+}
+
+/* Media queries*/
+
+@media screen and (min-width: 700px) {
+  .callToAction {
+    width: 80%;
+  }
+  .poster1,
+  .poster2 {
+    max-width: 40%;
+  }
+}

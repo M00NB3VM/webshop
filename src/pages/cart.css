@@ -1,0 +1,94 @@
+.yourCart {
+  margin-left: 20px;
+}
+
+.cartItem {
+  border: 1px solid white;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.cartItemContent {
+  position: relative;
+  padding: 20px;
+}
+
+.cartImg {
+  width: 100px;
+  border-radius: 15px;
+}
+
+.removeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  background-image: url("../images/trash-can.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cartProductInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.cartProductDetails {
+  margin: 10px;
+}
+
+.cartQuantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.minusButton {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  background-image: url("../images/minus.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 20px;
+}
+
+.plusButton {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  background-image: url("../images/plus.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 20px;
+}
+
+.orderInfo {
+  text-align: center;
+  margin: 20px 20px 0;
+}
+
+.checkoutButton {
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 20px;
+  margin-bottom: 30px;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 700px) {
+  .cartItem {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

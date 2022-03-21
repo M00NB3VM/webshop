@@ -1,0 +1,50 @@
+.singleProduct {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.arrow {
+  height: 30px;
+  width: auto;
+  margin: 20px;
+}
+
+.singleProductImg {
+  border-radius: 15px;
+  width: 60%;
+}
+
+.select {
+  font-family: "Archivo", sans-serif;
+  font-size: 1rem;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+  text-align: left;
+}
+
+.select:focus {
+  outline: 2px solid #cd2fbd;
+}
+
+.addToCartButton {
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 20px;
+  margin: 0 20px 30px;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 700px) {
+  .singleProduct {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .singleProductImg {
+    width: 30%;
+  }
+}

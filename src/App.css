@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@100;400&display=swap");
+
+/*Fonts
+font-family: 'Archivo', sans-serif;
+font-family: 'Archivo Black', sans-serif;
+*/
+
+h1,
+h2,
+h3,
+button,
+.productsLink {
+  font-family: "Archivo Black", sans-serif;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #250937;
+  color: white;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  background-color: #250937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.logoSmall {
+  width: 130px;
+  height: auto;
+  padding: 0;
+  margin: 5px;
+}
+
+.productsLink {
+  color: #cd2fbd;
+  text-decoration: none;
+  margin-left: auto;
+  padding: 5px;
+}
+
+.cart {
+  width: 40px;
+  height: auto;
+  padding: 0;
+  margin: 5px;
+}
+
+/*Media queries*/
+@media screen and (max-width: 699px) {
+  .logoBig {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .logoSmall {
+    display: none;
+  }
+
+  .logoBig {
+    width: auto;
+    height: 150px;
+    padding: 0;
+    margin: 5px 20px;
+  }
+}
