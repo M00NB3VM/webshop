@@ -2,4 +2,4 @@
 
 ## Needed
 
-Node
+Node.js
